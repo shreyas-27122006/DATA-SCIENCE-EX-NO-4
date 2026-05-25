@@ -45,11 +45,9 @@ import numpy as np
 df=pd.read_csv("/content/bmi.csv")
 df.head()
 ~~~
-
 ~~~
 <img width="1037" height="536" alt="image" src="https://github.com/user-attachments/assets/b7c41cd3-cdaf-412c-911d-6f9b4c2046b4" />
 ~~~
-
 ~~~
 df_null_sum=df.isnull().sum()
 df_null_sum
